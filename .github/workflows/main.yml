@@ -3,7 +3,7 @@ name: Deploy Abdul Kalam Tribute Page
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
