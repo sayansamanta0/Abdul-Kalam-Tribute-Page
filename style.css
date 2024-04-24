@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ani {
+    animation: blob 20s linear infinite;
+}
+
+@keyframes blob {
+    0% {
+        top: -10%;
+        left: -10%;
+    }
+
+    50% {
+        top: 40%;
+        left: 25%;
+    }
+
+    75% {
+        top: 50%;
+        left: 5%;
+    }
+
+    100% {
+        top: -10%;
+        left: -10%;
+    }
+}
